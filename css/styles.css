@@ -195,7 +195,7 @@ section#highlights ul {
 }
 section#enterprise {
   background-image: url(../img/samples/bk-bl.jpg);
-  padding: 100px 0 0 0 !important;
+  padding: 100px 0 100px 0 !important;
   background-attachment: fixed;
   text-align: left;
 }
@@ -229,7 +229,7 @@ section#enterprise .btn-info {
 
 section#crowd {
   background-image: url(../img/samples/bk-or.jpg);
-  padding: 100px 0 0 0 !important;
+  padding: 100px 0 100px 0 !important;
   background-attachment: fixed;
   text-align: left;
 }
@@ -652,6 +652,51 @@ section#enterprise-intro a.btn.btn-empty {
   top: 15px;
 }
 section#enterprise-intro .carousel-indicators {
+  bottom: -40px;
+}
+section#crowd-intro {
+  background-image: url(../img/samples/analyst.jpg);
+  background-attachment: fixed;
+  padding: 40px 0;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+section#crowd-intro:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+  zoom: 1;
+}
+section#crowd-intro p {
+  font-size: 16px;
+}
+section#crowd-intro p a {
+  color: #22a3df;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+section#crowd-intro p a:hover {
+  color: #146387;
+}
+section#crowd-intro a.btn.btn-empty {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 45px auto;
+  position: relative;
+  top: 15px;
+}
+section#crowd-intro .carousel-indicators {
   bottom: -40px;
 }
 section#get-in-touch {
