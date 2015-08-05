@@ -1033,17 +1033,19 @@ ul {
   border-radius: 2px;
   width: 15px;
   height: 15px;
-  border: 2px solid white;
+  border: 2px solid black;
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+
 }
 .carousel-indicators.vertical li.active {
   margin: 10px 0;
   width: 15px;
   height: 15px;
-  border: 2px solid white;
+  border: 2px solid black;
+  background-color: black;
 }
 .carousel-indicators li {
   display: inline-block;
@@ -1055,7 +1057,7 @@ ul {
   border-radius: 2px;
   width: 15px;
   height: 15px;
-  border: 2px solid white;
+  border: 2px solid black;
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -1065,7 +1067,7 @@ ul {
   margin: 10px 0;
   width: 15px;
   height: 15px;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .btn.btn-primary {
