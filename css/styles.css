@@ -279,8 +279,11 @@ section#services .media-services.right .media-body h4, section#services .media-s
 section#services .media-services.right:hover:before {
   border-width: 0;
 }
-section#testimonials {
-  padding: 40px 0;
+section#testimonials .container{
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 section#testimonials #testimonials-carousel {
   margin: 30px 0;
