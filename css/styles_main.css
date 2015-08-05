@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);
-.backgroundCover, section#features, section#buyNow, section#signup, section.well {
+.backgroundCover, section#features, section#buyNow, section#twitter, section.well {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,7 +24,7 @@ header.masthead .banner {
   position: relative;
 }
 header.masthead h1 {
-  #text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 55px;
   font-weight: bold;
 }
@@ -34,7 +34,6 @@ header.masthead .tp-bannertimer {
 }
 header.masthead .tp-caption {
   font-family: "Open Sans", Tahoma, Arial;
-  padding-left: 10px;
 }
 header.masthead .tp-caption a {
   color: white;
@@ -148,7 +147,6 @@ header.masthead h1, header.masthead h2, header.masthead h3 {
   color: #22a3df;
 }
 
-
 section#whoWeAre {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
@@ -158,10 +156,6 @@ section#whoWeAre {
 }
 section#whoWeAre .media .media-body h4 {
   font-weight: bold;
-  font-size: 24px;
-}
-section#whoWeAre .media .media-body p {
-  font-size: 18px;
 }
 section#about {
   padding: 40px 0;
@@ -181,7 +175,7 @@ section#about .media .media-body p {
   margin-top: 20px;
 }
 section#highlights {
-  padding: 60px 0 60px 0 !important;
+  padding: 60px 0;
   background: #eeeeee;
   border-top: 1px solid #e0e0e0;
 }
@@ -190,7 +184,6 @@ section#highlights h4, section#highlights h5 {
 }
 section#highlights h4 {
   text-transform: uppercase;
-  padding: 40px 0;
 }
 section#highlights p {
   padding: 15px 0;
@@ -198,9 +191,93 @@ section#highlights p {
   font-size: 13px;
 }
 section#highlights ul {
-  color: black;
-  font-size: 18px;
+  color: #999999;
 }
+section#enterprise {
+  background-image: url(../img/samples/bk-bl.jpg);
+  padding: 100px 0 100px 0 !important;
+  background-attachment: fixed;
+  text-align: left;
+}
+section#enterprise .media-circle {
+  margin: 15px 0;
+}
+section#enterprise .media-circle .media-body {
+  margin-top: 10px;
+}
+section#enterprise .media-circle .media-body h4 {
+  font-weight: 600;
+  color: white;
+}
+section#enterprise .media-circle .media-body p {
+  color: white;
+}
+section#enterprise h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 51px;
+}
+section#enterprise h1 span {
+  color: #22a3df;
+}
+section#enterprise .btn-info {
+  position:absolute;
+  right:0px;
+}
+
+section#crowd {
+  background-image: url(../img/samples/bk-or.jpg);
+  padding: 100px 0 100px 0 !important;
+  background-attachment: fixed;
+  text-align: left;
+}
+section#crowd .media-circle {
+  margin: 15px 0;
+}
+section#crowd .media-circle .media-body {
+  margin-top: 10px;
+}
+section#crowd .media-circle .media-body h4 {
+  font-weight: 600;
+  color: white;
+}
+section#crowd .media-circle .media-body p {
+  color: white;
+}
+section#crowd h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 51px;
+}
+section#crowd h1 span {
+  color: #ff7f00;
+}
+section#crowd .btn-info {
+  position:absolute;
+  right:0px;
+}
+section#platform {
+  padding: 40px 0;
+}
+section#platform img {
+  margin: 15px auto;
+}
+section#platform .media {
+  margin-top: 20px;
+}
+section#platform .media .media-body .media-heading {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+section#platform .media .media-body p {
+  margin-top: 20px;
+}
+
 section#services {
   padding: 40px 0;
 }
@@ -532,29 +609,30 @@ section#skills .skill-detail {
   font-weight: bold;
   display: block;
 }
-section#signup {
-  background-image: url(../img/samples/map-image.png);
-  background-color: #222;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 140px 0;
+section#enterprise-intro {
+  background-image: url(../img/samples/Mobile-Business.jpg);
+  background-attachment: fixed;
+  padding: 40px 0;
+  position: relative;
   color: white;
   text-align: center;
 }
-section#signup:before {
+section#enterprise-intro:before {
   content: " ";
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
   zoom: 1;
 }
-section#signup p {
-  font-size: 20px;
+section#enterprise-intro p {
+  font-size: 16px;
 }
-section#signup p a {
+section#enterprise-intro p a {
   color: #22a3df;
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -562,10 +640,10 @@ section#signup p a {
   transition: all 0.25s ease-in-out;
   text-decoration: none;
 }
-section#signup p a:hover {
+section#enterprise-intro p a:hover {
   color: #146387;
 }
-section#signup a.btn.btn-empty {
+section#enterprise-intro a.btn.btn-empty {
   padding: 10px 20px;
   font-weight: bold;
   font-size: 16px;
@@ -573,7 +651,52 @@ section#signup a.btn.btn-empty {
   position: relative;
   top: 15px;
 }
-section#signup .carousel-indicators {
+section#enterprise-intro .carousel-indicators {
+  bottom: -40px;
+}
+section#crowd-intro {
+  background-image: url(../img/samples/analyst.jpg);
+  background-attachment: fixed;
+  padding: 40px 0;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+section#crowd-intro:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.65);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
+  zoom: 1;
+}
+section#crowd-intro p {
+  font-size: 16px;
+}
+section#crowd-intro p a {
+  color: #22a3df;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-decoration: none;
+}
+section#crowd-intro p a:hover {
+  color: #146387;
+}
+section#crowd-intro a.btn.btn-empty {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 45px auto;
+  position: relative;
+  top: 15px;
+}
+section#crowd-intro .carousel-indicators {
   bottom: -40px;
 }
 section#get-in-touch {
@@ -897,7 +1020,7 @@ footer#site-footer a img.top {
 }
 .media .media-body h4 {
   color: black;
-  #text-transform: uppercase;
+  text-transform: uppercase;
 }
 .media .media-body p {
   color: #999999;
@@ -952,7 +1075,7 @@ footer#site-footer a img.top {
   font-size: 45px;
 }
 .section-heading h1, .section-heading h2, .section-heading h3 {
-  #text-transform: uppercase;
+  text-transform: uppercase;
   font-weight: bold;
 }
 .section-heading h1 span, .section-heading h2 span, .section-heading h3 span {
