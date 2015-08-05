@@ -552,6 +552,7 @@ section#signup:before {
 }
 section#signup p {
   font-size: 20px;
+  color: white;
 }
 section#signup p a {
   color: #22a3df;
