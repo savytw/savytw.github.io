@@ -30,8 +30,13 @@ header.masthead h1 {
 }
 header.masthead h2 {
   #text-transform: uppercase;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: bold;
+}
+header.masthead h3 {
+  #text-transform: uppercase;
+  font-size: 30px;
+  #font-weight: bold;
 }
 header.masthead .tp-bannertimer {
   background: url("../rs-plugin/assets/timerdot2.png");
