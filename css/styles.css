@@ -36,6 +36,7 @@ section#whoWeAre .media .media-body h4{font-weight:bold;font-size:24px;}
 section#whoWeAre .media .media-body p{font-size:18px;}
 section#about{padding:40px 0;}
 section#about img{margin:15px auto;}
+section#about .media{margin:0;text-align:left;overflow:hidden;}
 section#about .media{margin-top:20px;}
 section#about .media .media-body .media-heading{font-weight:bold;margin-top:20px;font-size:24px;}
 section#about .media .media-body p{margin-top:20px;font-size:20px;}
@@ -157,7 +158,7 @@ footer#site-footer{padding:40px 0;background:#222222;color:white;text-align:cent
 footer#site-footer span.divider{float:none;}
 footer#site-footer h4, footer#site-footer h5{text-transform:uppercase;}
 footer#site-footer a img.top{margin:20px 0;}
-.media{margin:0;text-align:left;overflow:hidden;}
+.media{margin:50px 0;text-align:left;overflow:hidden;}
 .media a{text-decoration:none;}
 .media a.pull-left{margin-right:25px;}
 .media a.pull-right{margin-left:25px;}
