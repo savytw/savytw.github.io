@@ -15,6 +15,7 @@ header.masthead .tp-caption .light_bold{font-weight:300;font-size:30px;color:whi
 header.masthead .tp-caption.large_white_light{font-weight:300;font-size:40px;color:white;}
 header.masthead .tp-caption .btn.btn-naked{background:rgba(255, 255, 255, 0.3);font-size:30px;font-style:italic;font-weight:300;}
 header.masthead h1, header.masthead h2, header.masthead h3{color:white;}
+.vcenter {display: inline-block; vertical-align: middle;float: none;}
 #wrap{padding-top:70px;}
 #wrap.home{padding:0;}
 #nav{width:100%;position:static;top:-32px;margin-bottom:0;-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.2);-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.2);-o-box-shadow:0 0 3px rgba(0, 0, 0, 0.2);box-shadow:0 0 3px rgba(0, 0, 0, 0.2);background:white;min-height:70px;}
@@ -38,6 +39,7 @@ section#about img{margin:15px auto;}
 section#about .media{margin-top:20px;}
 section#about .media .media-body .media-heading{font-weight:bold;margin-top:20px;font-size:24px;}
 section#about .media .media-body p{margin-top:20px;font-size:20px;}
+section#about p span{color:#22a3df;}
 section#highlights{padding:60px 0 60px 0 !important;background:#eeeeee;border-top:1px solid #e0e0e0;}
 section#highlights h4, section#highlights h5{font-weight:bold;}
 section#highlights h4{text-transform:uppercase;padding:40px 0;}
