@@ -343,14 +343,6 @@
                                         <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email">
                                         <i class="fa fa-envelope-o form-control-feedback"></i>
                                     </div>
-                                    <div class="mc-field-group form-group has-feedback left">
-                                        <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="First Name">
-                                        <i class="fa fa-user form-control-feedback"></i>
-                                    </div>
-                                    <div class="mc-field-group form-group has-feedback left">
-                                        <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Last Name">
-                                        <i class="fa fa-user form-control-feedback"></i>
-                                    </div>
                                     <div id="mce-responses" class="clear">
                                         <div class="response" id="mce-error-response" style="display:none; color:#FFFFFF"></div>
                                         <div class="response" id="mce-success-response" style="display:none; color:#FFFFFF"></div>
@@ -396,7 +388,16 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/script.js"></script>
     <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <script type='text/javascript'>
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0]='EMAIL';
+        ftypes[0]='email';
+    }(jQuery)
+    );
+    var $mcj = jQuery.noConflict(true);
+    </script>
 
 
     <script>
