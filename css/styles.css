@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);.backgroundCover, section#features, section#buyNow, section#signup, section.well{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
-body{font-family:"Open Sans", Tahoma, Arial;}
+body{font-family:"Open Sans", Tahoma, Arial;font-size:125%;}
 header{background:#222222;color:black;}
 header.masthead .bannercontainer{width:100%;position:relative;padding:0;}
 header.masthead .banner{width:100%;position:relative;}
-header.masthead h1{#text-transform:uppercase;font-size:75px;font-weight:bold;}
-header.masthead h2{#text-transform:uppercase;font-size:25px;font-weight:bold;}
-header.masthead h3{#text-transform:uppercase;font-size:20px;font-weight:bold;}
+header.masthead h1{#text-transform:uppercase;font-size:7em;font-weight:bold;}
+header.masthead h2{#text-transform:uppercase;font-size:2.2em;font-weight:bold;}
+header.masthead h3{#text-transform:uppercase;font-size:0.6em;font-weight:bold;}
 header.masthead .tp-bannertimer{background:url("../rs-plugin/assets/timerdot2.png");height:3px;}
 header.masthead .tp-caption{font-family:"Open Sans", Tahoma, Arial;padding-left:10px;}
 header.masthead .tp-caption a{color:white;}
