@@ -4,8 +4,8 @@ header{background:#222222;color:black;}
 header.masthead .bannercontainer{width:100%;position:relative;padding:0;}
 header.masthead .banner{width:100%;position:relative;}
 header.masthead h1{#text-transform:uppercase;font-size:7em;font-weight:bold;}
-header.masthead h2{#text-transform:uppercase;font-size:2.2em;font-weight:bold;}
-header.masthead h3{#text-transform:uppercase;font-size:0.55em;font-weight:bold;}
+header.masthead h2{#text-transform:uppercase;font-size:3em;font-weight:bold;}
+header.masthead h3{#text-transform:uppercase;font-size:0.7em;font-weight:bold;}
 header.masthead .tp-bannertimer{background:url("../rs-plugin/assets/timerdot2.png");height:3px;}
 header.masthead .tp-caption{font-family:"Open Sans", Tahoma, Arial;padding-left:10px;}
 header.masthead .tp-caption a{color:white;}
