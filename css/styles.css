@@ -46,6 +46,40 @@ section#highlights h4, section#highlights h5{font-weight:bold;}
 section#highlights h4{text-transform:uppercase;padding:40px 0;}
 section#highlights p{padding:15px 0;color:#999999;font-size:13px;}
 section#highlights ul{color:black;font-size:18px;}
+section#features {
+  background-image: url(../img/samples/bk-bl.jpg);
+  padding: 50px 0 0 0 !important;
+  background-attachment: fixed;
+  text-align: left;
+}
+section#features .media-circle {
+  margin: 15px 0;
+}
+section#features .media-circle .media-body {
+  margin-top: 10px;
+}
+section#features .media-circle .media-body h4 {
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+}
+section#features .media-circle .media-body p {
+  color: white;
+  font-size: 20px;
+}
+section#features h1 {
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 51px;
+}
+section#features h1 span {
+  color: #22a3df;
+}
+section#services {
+  padding: 40px 0;
+}
 section#services{padding:40px 0;}
 section#services .media-services{position:relative;padding:15px;background:#f2f2f2;border:2px solid white;-webkit-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;}
 section#services .media-services .media-object{background:white;width:70px;height:70px;padding:15px;margin:10px auto;color:#555555;}
