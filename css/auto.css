@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'agencyfb';
+    src: url('../fonts/agencyfb.ttf');
+}
+.autofont {
+    font-family: agencyfb, serif;
+    font-size: 30px;
+}
