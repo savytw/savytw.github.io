@@ -3,27 +3,7 @@ body{font-family:"Open Sans", Tahoma, Arial;font-size:125%;}
 header{background:#222222;color:black;}
 header.masthead .bannercontainer{width:100%;position:relative;padding:0;}
 header.masthead .banner{width:100%;position:relative;text-align: center;}
-#banner {
-    background-attachment: scroll,  fixed;
-    background-color: #666;
-    /* background-image: url("../img/overlay.png"), url("../img/banner.jpg"); */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    padding: 12em 0 20em 0;
-    text-align: center;
-}
-.banner2 {
-    background-image: url("../img/samples/city.jpg");
-}
-.mask {
-    margin: auto;
-    padding: 20px 0px;
-    background-color: #3d3d3d;
-    width: 50%;
-    background-color: rgba(61,61,61,0.8);
-}
+header.masthead .tp-banner{touch-action: initial !important;}
 header.masthead h1{#text-transform:uppercase;font-size:5em;font-weight:bold;}
 header.masthead h2{#text-transform:uppercase;font-size:2em;}
 header.masthead h3{#text-transform:uppercase;font-size:0.7em;font-weight:bold;}
@@ -93,7 +73,7 @@ section#features h1 {
   text-align: left;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 51px;
+  font-size: 40px;
 }
 section#features h1 span {
   color: #22a3df;
