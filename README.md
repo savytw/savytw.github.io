@@ -1,1 +1,1 @@
-[AutoInsight](http://savy.tw/autoinsight)
+[AutoInsight](http://savytw.github.io/)
