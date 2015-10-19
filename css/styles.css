@@ -2,8 +2,8 @@
 body{font-family:"Open Sans", Tahoma, Arial;font-size:125%;}
 header{background:#222222;color:black;}
 header.masthead .bannercontainer{width:100%;position:relative;padding:0;}
-header.masthead .banner{width:100%;position:relative;text-align: center;}
-header.masthead .tp-banner{touch-action: initial !important;}
+header.masthead .banner{width:100%;position:relative;text-align:center;}
+header.masthead .tp-banner{touch-action:initial !important;}
 header.masthead h1{#text-transform:uppercase;font-size:5em;font-weight:bold;}
 header.masthead h2{#text-transform:uppercase;font-size:2em;}
 header.masthead h3{#text-transform:uppercase;font-size:0.7em;font-weight:bold;}
@@ -47,40 +47,14 @@ section#highlights h4, section#highlights h5{font-weight:bold;}
 section#highlights h4{text-transform:uppercase;padding:40px 0;}
 section#highlights p{padding:15px 0;color:#999999;font-size:13px;}
 section#highlights ul{color:black;font-size:18px;}
-section#features {
-  background-image: url(../img/samples/bk-bl.jpg);
-  padding: 50px 0 0 0 !important;
-  background-attachment: fixed;
-  text-align: left;
-}
-section#features .media-circle {
-  margin: 15px 0;
-}
-section#features .media-circle .media-body {
-  margin-top: 10px;
-}
-section#features .media-circle .media-body h4 {
-  font-weight: 600;
-  color: white;
-  font-size: 30px;
-}
-section#features .media-circle .media-body p {
-  color: white;
-  font-size: 20px;
-}
-section#features h1 {
-  color: white;
-  text-align: left;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 40px;
-}
-section#features h1 span {
-  color: #22a3df;
-}
-section#services {
-  padding: 40px 0;
-}
+section#features{background-image:url(../img/samples/bk-bl.jpg);padding:50px 0 0 0 !important;background-attachment:fixed;text-align:left;}
+section#features .media-circle{margin:15px 0;}
+section#features .media-circle .media-body{margin-top:10px;}
+section#features .media-circle .media-body h4{font-weight:600;color:white;font-size:30px;}
+section#features .media-circle .media-body p{color:white;font-size:20px;}
+section#features h1{color:white;text-align:left;text-transform:uppercase;font-weight:bold;font-size:40px;}
+section#features h1 span{color:#22a3df;}
+section#services{padding:40px 0;}
 section#services{padding:40px 0;}
 section#services .media-services{position:relative;padding:15px;background:#f2f2f2;border:2px solid white;-webkit-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out;}
 section#services .media-services .media-object{background:white;width:70px;height:70px;padding:15px;margin:10px auto;color:#555555;}
@@ -211,7 +185,7 @@ footer#site-footer a img.top{margin:20px 0;}
 .media.vertical .media-object{background:white;width:70px;height:70px;margin:10px auto;color:#555555;}
 .media.vertical .media-body{text-align:center;}
 .media.vertical:hover .media-object{background:#22a3df;color:white;}
-.go-down{position: absolute; bottom: 20px; z-index: 999; width: 100%; text-align: center;}
+.go-down{position:absolute;bottom:20px;z-index:999;width:100%;text-align:center;}
 .go-down a{color:white;}
 .section-heading{text-align:center;padding:30px 0;}
 .section-heading h1{font-size:45px;}

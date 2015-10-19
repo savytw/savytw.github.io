@@ -1,22 +1,4 @@
-@font-face {
-    font-family: 'agencyfb';
-    src: url('../fonts/agencyfb.ttf');
-}
-
-.autofont {
-    font-family: agencyfb, serif;
-    font-size: 30px;
-}
-
-.btn.btn-auto-naked {
-    background: rgba(255, 255, 255, 0.3);
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.btn-auto-naked:hover {
-    border-color: #565a5c;
-    border-bottom-color: #383b3c;
-    background-color: #565a5c;
-    color: #fff;
-}
+@font-face{font-family:'agencyfb';src:url('../fonts/agencyfb.ttf');}
+.autofont{font-family:agencyfb, serif;font-size:30px;}
+.btn.btn-auto-naked{background:rgba(255, 255, 255, 0.3);font-size:30px;font-weight:300;}
+.btn-auto-naked:hover{border-color:#565a5c;border-bottom-color:#383b3c;background-color:#565a5c;color:#fff;}
