@@ -2,5 +2,6 @@
 .git/*
 .gitognore
 .idea/*
+.DS_Store
 
 scripts/*
