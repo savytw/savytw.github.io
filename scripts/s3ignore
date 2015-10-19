@@ -1,0 +1,6 @@
+# All hidden files
+.git/*
+.gitognore
+.idea/*
+
+scripts/*
