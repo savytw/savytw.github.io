@@ -211,7 +211,7 @@ footer#site-footer a img.top{margin:20px 0;}
 .media.vertical .media-object{background:white;width:70px;height:70px;margin:10px auto;color:#555555;}
 .media.vertical .media-body{text-align:center;}
 .media.vertical:hover .media-object{background:#22a3df;color:white;}
-.go-down{position:absolute;bottom:20px;right:49.2%;z-index:999;}
+.go-down{position: absolute; bottom: 20px; z-index: 999; width: 100%; text-align: center;}
 .go-down a{color:white;}
 .section-heading{text-align:center;padding:30px 0;}
 .section-heading h1{font-size:45px;}
