@@ -610,11 +610,11 @@ section#skills .skill-detail {
   display: block;
 }
 section#enterprise-intro {
-  background-image: url(../img/samples/Mobile-Business.jpg);
+  /*background-image: url(../img/samples/Mobile-Business.jpg);*/
   background-attachment: fixed;
   padding: 40px 0;
   position: relative;
-  color: white;
+  /*color: white;*/
   text-align: center;
 }
 section#enterprise-intro:before {
@@ -625,7 +625,7 @@ section#enterprise-intro:before {
   left: 0;
   bottom: 0;
   background-color: transparent;
-  background-color: rgba(0, 0, 0, 0.65);
+  /*background-color: rgba(0, 0, 0, 0.65);*/
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A6000000,endColorstr=#A6000000);
   zoom: 1;
 }
