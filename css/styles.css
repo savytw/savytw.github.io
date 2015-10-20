@@ -142,6 +142,7 @@ section#pricing .flat .plan.featured{-webkit-transform:scale(1.1);-ms-transform:
 section#pricing .flat .plan.featured li.plan-name{background:#000;}
 section#pricing .flat .plan.featured:hover li.plan-name{background:#c0392b;}
 section#pricing .flat .plan:hover li.plan-name{background:#000;}
+section#download .divider{background:#999;min-height:1px;width:100%;}
 section .side-block{margin-top:25px;}
 section .side-block.search input.form-control{background:#eeeeee;border:none;height:40px;}
 section .side-block.search button{border:none;background:none;}
