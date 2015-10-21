@@ -1,6 +1,6 @@
 # All hidden files
 .git/*
-.gitognore
+.gitignore
 .idea/*
 .DS_Store
 
