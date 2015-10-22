@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);.backgroundCover, section#features, section#buyNow, section#signup, section.well{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400,600,700);.backgroundCover, section#features, section#buyNow, section#signup, section.well{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;}
 body{font-family:"Open Sans", Tahoma, Arial;font-size:125%;}
 header{background:#222222;color:black;}
 header.masthead .bannercontainer{width:100%;position:relative;padding:0;}
