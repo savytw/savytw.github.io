@@ -249,6 +249,11 @@ a:hover{color:#146387;text-decoration:none;}
 		background-image:url('../img/beta_dialog-01.png');
 		background-size:contain;
 		background-repeat: no-repeat;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
 	}
 	.dialog-close {
 		position: absolute; 
@@ -260,6 +265,11 @@ a:hover{color:#146387;text-decoration:none;}
 		right:0 ;
 		margin:auto; 
 		bottom:20px;
+	}
+	.dialog-dummy{
+		width: 100%;
+		height:100%;
+		background-color: transparent;
 	}
 @media only screen and (max-device-width:800px), only screen and (device-width:1024px) and (device-height:600px), only screen and (width:1280px) and (orientation:landscape), only screen and (device-width:800px), only screen and (max-width:767px){.flex-video{padding-top:0;}
 }
