@@ -142,7 +142,7 @@ section#pricing .flat .plan.featured{-webkit-transform:scale(1.1);-ms-transform:
 section#pricing .flat .plan.featured li.plan-name{background:#000;}
 section#pricing .flat .plan.featured:hover li.plan-name{background:#c0392b;}
 section#pricing .flat .plan:hover li.plan-name{background:#000;}
-section#download .divider{background:#999;min-height:1px;width:100%;}
+section .divider{background:#999;min-height:1px;width:100%;}
 section .side-block{margin-top:25px;}
 section .side-block.search input.form-control{background:#eeeeee;border:none;height:40px;}
 section .side-block.search button{border:none;background:none;}
@@ -164,6 +164,9 @@ section.well:before{content:" ";position:absolute;top:0;right:0;left:0;bottom:0;
 section.well h2{text-transform:uppercase;color:white;font-weight:bold;}
 section.well .breadcrumb{background:none;float:right;margin-bottom:0;padding:28px 15px 5px 15px;}
 section.well .breadcrumb .active{color:white;}
+section .custom_container{padding: 80px 10px 0px}
+section .partner_container{text-align:center; padding:0px 0px 80px}
+section .partner_img{width: 13.1em; height: 3.2em; margin: 0 1em;}
 footer#site-footer{padding:40px 0;background:#222222;color:white;text-align:center;}
 footer#site-footer span.divider{float:none;}
 footer#site-footer h4, footer#site-footer h5{text-transform:uppercase;}
@@ -271,6 +274,12 @@ a:hover{color:#146387;text-decoration:none;}
 		height:100%;
 		background-color: transparent;
 	}
+	#header_hip {
+		background-color:rgba(255,255,255,0.6); 
+		height:9.6em;
+		position: absolute; 
+		width: 100%;"
+	}
 @media only screen and (max-device-width:800px), only screen and (device-width:1024px) and (device-height:600px), only screen and (width:1280px) and (orientation:landscape), only screen and (device-width:800px), only screen and (max-width:767px){.flex-video{padding-top:0;}
 }
 .quote{background:#333333;color:white;border-left:4px solid #22a3df;-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;-ms-border-radius:0 5px 5px 0;-o-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;padding:25px;margin-bottom:15px;}
@@ -305,6 +314,7 @@ header.masthead h1, header.masthead h2, header.masthead h3{color:white;}
 		bottom:0.85em;
 	}
 }
+section .partner_img{width: 8.7em; height: 2.13em; margin: 0 1em;}
 .theme-switcher{position:absolute;margin-top:20px;}
 .theme-switcher .colors{display:none;overflow:hidden;float:left;}
 .theme-switcher a{width:30px;height:30px;float:left;display:inline-block;}
