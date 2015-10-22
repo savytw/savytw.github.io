@@ -313,8 +313,8 @@ header.masthead h1, header.masthead h2, header.masthead h3{color:white;}
 		margin:auto; 
 		bottom:0.85em;
 	}
+	section .partner_img{width: 8.7em; height: 2.13em; margin: 0 1em;}
 }
-section .partner_img{width: 8.7em; height: 2.13em; margin: 0 1em;}
 .theme-switcher{position:absolute;margin-top:20px;}
 .theme-switcher .colors{display:none;overflow:hidden;float:left;}
 .theme-switcher a{width:30px;height:30px;float:left;display:inline-block;}
