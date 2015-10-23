@@ -266,7 +266,7 @@ a:hover{color:#146387;text-decoration:none;}
 		position:absolute; 
 		left:0 ; 
 		right:0 ;
-		margin:auto; 
+		margin:0 auto; 
 		bottom:20px;
 	}
 	.dialog-dummy{
@@ -348,7 +348,7 @@ header.masthead h1, header.masthead h2, header.masthead h3{color:white;}
 		position:absolute; 
 		left:0 ; 
 		right:0 ;
-		margin:auto; 
+		margin:0 auto; 
 		bottom:0.85em;
 	}
 	section .partner_img{width: 8.7em; height: 2.13em; margin: 0 1em;}
