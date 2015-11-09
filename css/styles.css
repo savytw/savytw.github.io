@@ -164,9 +164,9 @@ section.well:before{content:" ";position:absolute;top:0;right:0;left:0;bottom:0;
 section.well h2{text-transform:uppercase;color:white;font-weight:bold;}
 section.well .breadcrumb{background:none;float:right;margin-bottom:0;padding:28px 15px 5px 15px;}
 section.well .breadcrumb .active{color:white;}
-section .custom_container{padding: 80px 10px 0px}
-section .partner_container{text-align:center; padding:0px 0px 80px}
-section .partner_img{width: 13.1em; height: 3.2em; margin: 0 1em;}
+section .custom_container{padding:80px 10px 0px}
+section .partner_container{text-align:center;padding:0px 0px 80px}
+section .partner_img{width:13.1em;height:3.2em;margin:0 1em;}
 footer#site-footer{padding:40px 0;background:#222222;color:white;text-align:center;}
 footer#site-footer span.divider{float:none;}
 footer#site-footer h4, footer#site-footer h5{text-transform:uppercase;}
@@ -245,79 +245,20 @@ a:hover{color:#146387;text-decoration:none;}
 .flex-video iframe,
 .flex-video object,
 .flex-video embed{position:absolute;top:0;left:0;width:100%;height:100%;}
-	.custom-content{
-		width:32em ;
-		height:47.36em;
-		margin:auto; 
-		background-image:url('../img/beta_dialog-01.png');
-		background-size:contain;
-		background-repeat: no-repeat;
-		position: absolute;
-		left: 0;
-		right: 0;
-		top: 0;
-		bottom: 0;
-	}
-	.dialog-close {
-		position: absolute; 
-		right: 1em;
-	}
-	.dialog-googlepay {
-		position:absolute; 
-		left:0 ; 
-		right:0 ;
-		margin:0 auto; 
-		bottom:20px;
-	}
-	.dialog-dummy{
-		width: 100%;
-		height:100%;
-		background-color: transparent;
-	}
-	#header_hip {
-		background-color:rgba(255,255,255,0.6); 
-		height:7.5em;
-		position: absolute; 
-		width: 100%;
-	}
-	#header_hip .app_icon{
-		height:70%;
-		margin: auto 3em;
-	}
-	#header_hip .description {
-		left:0;
-		right:0;
-		text-align: center;
-	}
-	#header_hip .gp_icon {
-		position: absolute;
-		margin: auto;
-		bottom: 0;
-		top: 0;
-		right: 0;
-		margin: auto 2.5em;
-	}
-	#header_hip h1 {
-		margin: 0.2em 0;
-	}
-	#header_hip h3 {
-		margin: 0.1em 0;
-	}
-	.vertical_center_toparent {
-		position: absolute;
-		margin: auto;
-		bottom: 0;
-		top: 0;
-	}
-	span.visible_large{
-		display: initial;
-	}
-	h3.visible_large{
-		display: initial;
-	}
-	h1.visible_large{
-		text-transform: none;
-	}
+.custom-content{width:32em;height:47.36em;margin:auto;background-image:url('../img/beta_dialog-01.png');background-size:contain;background-repeat:no-repeat;position:absolute;left:0;right:0;top:0;bottom:0;}
+.dialog-close{position:absolute;right:1em;}
+.dialog-googlepay{position:absolute;left:0;right:0;margin:0 auto;bottom:20px;}
+.dialog-dummy{width:100%;height:100%;background-color:transparent;}
+#header_hip{background-color:rgba(255,255,255,0.6);height:7.5em;position:absolute;width:100%;}
+#header_hip .app_icon{height:70%;margin:auto 3em;}
+#header_hip .description{left:0;right:0;text-align:center;}
+#header_hip .gp_icon{position:absolute;margin:auto;bottom:0;top:0;right:0;margin:auto 2.5em;}
+#header_hip h1{margin:0.2em 0;}
+#header_hip h3{margin:0.1em 0;}
+.vertical_center_toparent{position:absolute;margin:auto;bottom:0;top:0;}
+span.visible_large{display:initial;}
+h3.visible_large{display:initial;}
+h1.visible_large{text-transform:none;}
 @media only screen and (max-device-width:800px), only screen and (device-width:1024px) and (device-height:600px), only screen and (width:1280px) and (orientation:landscape), only screen and (device-width:800px), only screen and (max-width:767px){.flex-video{padding-top:0;}
 }
 .quote{background:#333333;color:white;border-left:4px solid #22a3df;-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0;-ms-border-radius:0 5px 5px 0;-o-border-radius:0 5px 5px 0;border-radius:0 5px 5px 0;padding:25px;margin-bottom:15px;}
@@ -331,32 +272,11 @@ header.masthead h2{font-size:16px;margin-top:20px;}
 header.masthead h3{font-size:14px;}
 header.masthead .tp-caption a{color:white;}
 header.masthead h1, header.masthead h2, header.masthead h3{color:white;}
-	.custom-content{
-		/*max-width:90%;*/
-		width:25em ;
-		height:37em;
-		margin:auto; 
-		background-image:url('../img/beta_dialog-01.png');
-		background-size:contain;
-		background-repeat: no-repeat;
-	}
-	.dialog-close {
-		position: absolute; 
-		right: 1em;
-	}
-	.dialog-googlepay {
-		position:absolute; 
-		left:0 ; 
-		right:0 ;
-		margin:0 auto; 
-		bottom:0.85em;
-	}
-	section .partner_img{width: 8.7em; height: 2.13em; margin: 0 1em;}
-	#header_hip {
-		background-color:rgba(255,255,255,0.6); 
-		height:9.6em;
-		position: absolute; 
-		width: 100%;"
+.custom-content{width:25em;height:37em;margin:auto;background-image:url('../img/beta_dialog-01.png');background-size:contain;background-repeat:no-repeat;}
+.dialog-close{position:absolute;right:1em;}
+.dialog-googlepay{position:absolute;left:0;right:0;margin:0 auto;bottom:0.85em;}
+section .partner_img{width:8.7em;height:2.13em;margin:0 1em;}
+#header_hip{background-color:rgba(255,255,255,0.6);height:9.6em;position:absolute;width:100%;"
 	}
 	#header_hip .app_icon{
 /*		height:32%;
