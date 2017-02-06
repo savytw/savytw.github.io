@@ -1,7 +1,0 @@
-# All hidden files
-.git/*
-.gitignore
-.idea/*
-.DS_Store
-
-scripts/*
