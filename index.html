@@ -1,121 +1,528 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9 ]>
+<html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAVY</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SAVY</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Custom CSS -->
-    <link href="css/agency.css" rel="stylesheet">
+    <!-- script
+    ================================================== -->
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
-          type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
+<body id="top">
 
-<body id="page-top" class="index">
+<!-- header
+================================================== -->
+<header class="s-header">
 
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top">SAVY</a>
-        </div>
+    <div class="header-logo">
+        <a class="site-logo" href="index.html">
+            <img src="images/savy.png" alt="Homepage">
+        </a>
+    </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <!--
-                <li>
-                    <a class="page-scroll" href="#skills">Skills</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-                -->
+    <nav class="header-nav">
+
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+        <div class="header-nav__content">
+            <h3>Navigation</h3>
+
+            <ul class="header-nav__list">
+                <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
+                <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
             </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
 
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="intro-text">
-            <div class="intro-heading">It's Nice To Meet You</div>
-            <a href="mailto:hi@savy.tw"class="page-scroll btn btn-xl">Contact Us</a>
-            <div class="col-lg-12 text-center section-title">
-                <a href="mailto:hi@savy.tw"><h2><span>hi@savy.tw</span></h2></a>
+            <p>施睿智能科技</p>
+
+        </div> <!-- end header-nav__content -->
+
+    </nav>  <!-- end header-nav -->
+
+    <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+    </a>
+</header> <!-- end s-header -->
+
+
+<!-- home
+================================================== -->
+<section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg"
+         data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+    <div class="overlay"></div>
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+        <div class="row home-content__main">
+
+            <h3>施睿智能科技</h3>
+
+            <h1>
+                物聯網 x 人工智能 x 健康科技 <br>
+                打造智能新世界
+            </h1>
+
+            <div class="home-content__buttons">
+                <a href="#about" class="smoothscroll btn btn--stroke">
+                    關於我們
+                </a>
+            </div>
+
+        </div>
+
+        <div class="home-content__scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <span>Scroll Down</span>
+            </a>
+        </div>
+
+        <div class="home-content__line"></div>
+
+    </div> <!-- end home-content -->
+</section> <!-- end s-home -->
+
+
+<!-- about
+================================================== -->
+<section id='about' class="s-about">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--dark">Hello There</h3>
+            <h1 class="display-1 display-1--light">We Are SAVY</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <p>
+                施睿專精於智能科技領域，藉由物聯網、機器學習、及數據分析的技術，打造智慧化的解決方案。我們的主要運用技術改造健康科技領域，主力產品為動態肌動學評量系統，以及智能血液透析系統，客戶涵蓋大中華區的醫療院所及健身機構。除了主力產品研發外，施睿創新實驗室提供創新創意的空間，開創不一樣的產品，打造智能科技生活。我們與台大合作共同打造動態空氣品質監控平台，以及O2O科技志工平台。
+            </p>
+        </div>
+    </div> <!-- end about-desc -->
+
+    <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+        <div class="col-block stats__col ">
+            <div class="stats__count">12</div>
+            <h5>Awards Received</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">1460</div>
+            <h5>Cups of Coffee</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">10</div>
+            <h5>Projects Completed</h5>
+        </div>
+        <div class="col-block stats__col">
+            <div class="stats__count">130</div>
+            <h5>GB Data Analyzed</h5>
+        </div>
+
+    </div> <!-- end about-stats -->
+
+    <div class="about__line"></div>
+
+</section> <!-- end s-about -->
+
+
+<!-- services
+================================================== -->
+<section id='services' class="s-services">
+
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">What We Do</h3>
+            <h1 class="display-2">從需求出發翻轉技術<br/>打造智能科技新產品</h1>
+        </div>
+    </div> <!-- end section-header -->
+
+    <div class="row services-list block-1-2 block-tab-full">
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-cube"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">物聯網</h3>
+                <p>從硬體到韌體到軟體，以至於全面性的整合，我們從頭掌握了物聯網的各項核心技術，因此可以打造出各式不一樣的產品，顛覆市場的想像。
+                </p>
             </div>
         </div>
-    </div>
-</header>
 
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-group"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">人工智能</h3>
+                <p>以數據驅動為出發點，是我們設計產品的核心價值。如果在各種情境中有效採集數據，才能進一步發展 AI 技術。運用我們在機器學習上的專業知識，並且熟悉如何與各領域的專家配合，我們打造的產品不斷自我進化。
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-earth"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">健康科技</h3>
+                <p>以人為本，健康科技一直是我們發展的主軸。除了需要強大的專家團隊配合外，有各式各樣的挑戰存在於這條傳統但需要被改變的領域。也因此能創造更大的價值。
+                </p>
+            </div>
+        </div>
+
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-lego-block"></i>
+            </div>
+            <div class="service-text">
+                <h3 class="h2">客製服務</h3>
+                <p>需求從生活而來，也從產業而來。我們針對值得被改變的領域跟需求，會提供一系列有創意且專業的服務，來解決這些有意思的問題。
+                </p>
+            </div>
+        </div>
+    </div> <!-- end services-list -->
+</section> <!-- end s-services -->
+
+
+<!-- works
+================================================== -->
+<section id='works' class="s-works">
+    <div class="intro-wrap">
+        <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Recent Works</h3>
+                <h1 class="display-2 display-2--light">我們打造的產品<br/>正在改變這個世界</h1>
+            </div>
+        </div> <!-- end section-header -->
+    </div> <!-- end intro-wrap -->
+
+    <div class="row works-content">
+        <div class="col-full masonry-wrap">
+            <div class="masonry">
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/dk.jpg" class="thumb-link" title="動態肌動評量"
+                               data-size="1050x700">
+                                <img src="images/portfolio/dk.jpg"
+                                     srcset="images/portfolio/dk.jpg 1x, images/portfolio/dk@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                動態肌動評量
+                            </h3>
+                            <p class="item-folio__cat">
+                                健康科技
+                            </p>
+                        </div>
+
+                        <a href="http://dk.savy.tw/" target="_top" class="item-folio__project-link" title="動態肌動評量">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>動態肌動評量</p>
+                        </div>
+
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick" data-aos="fade-up">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/QS2.png" class="thumb-link" title="智能血液透析"
+                               data-size="1050x700">
+                                <img src="images/portfolio/QS2.png"
+                                     srcset="images/portfolio/QS2.png 1x, images/portfolio/QS2@2x.png 2x" alt="">
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                智能血液透析
+                            </h3>
+                            <p class="item-folio__cat">
+                                健康科技
+                            </p>
+                        </div>
+
+                        <a href="http://www.quantumsmile.com/" target="_top" class="item-folio__project-link"
+                           title="智能血液透析">
+                            <i class="icon-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>智能血液透析</p>
+                        </div>
+                    </div>
+                </div> <!-- end masonry__brick -->
+
+                <!--<div class="masonry__brick" data-aos="fade-up">-->
+                <!--<div class="item-folio">-->
+
+                <!--<div class="item-folio__thumb">-->
+                <!--<a href="images/portfolio/sensing.png" class="thumb-link" title="The Beetle Car"-->
+                <!--data-size="1050x700">-->
+                <!--<img src="images/portfolio/sensing.png"-->
+                <!--srcset="images/portfolio/sensing.png 1x, images/portfolio/sensing@2x.png 2x"-->
+                <!--alt="">-->
+                <!--</a>-->
+                <!--</div>-->
+
+                <!--<div class="item-folio__text">-->
+                <!--<h3 class="item-folio__title">-->
+                <!--動態空氣汙染監控-->
+                <!--</h3>-->
+                <!--<p class="item-folio__cat">-->
+                <!--物聯網-->
+                <!--</p>-->
+                <!--</div>-->
+
+                <!--<a href="https://savy.tw/" class="item-folio__project-link" title="Project link">-->
+                <!--<i class="icon-link"></i>-->
+                <!--</a>-->
+
+                <!--<div class="item-folio__caption">-->
+                <!--<p>動態空氣汙染監控</p>-->
+                <!--</div>-->
+
+                <!--</div>-->
+                <!--</div> &lt;!&ndash; end masonry__brick &ndash;&gt;-->
+
+                <!--<div class="masonry__brick" data-aos="fade-up">-->
+                <!--<div class="item-folio">-->
+
+                <!--<div class="item-folio__thumb">-->
+                <!--<a href="images/portfolio/o2o.png" class="thumb-link" title="Grow Green"-->
+                <!--data-size="1050x700">-->
+                <!--<img src="images/portfolio/o2o.png"-->
+                <!--srcset="images/portfolio/o2o.png 1x, images/portfolio/o2o@2x.png 2x" alt="">-->
+                <!--</a>-->
+                <!--</div>-->
+
+                <!--<div class="item-folio__text">-->
+                <!--<h3 class="item-folio__title">-->
+                <!--O2O志工媒合推薦系統-->
+                <!--</h3>-->
+                <!--<p class="item-folio__cat">-->
+                <!--人工智能-->
+                <!--</p>-->
+                <!--</div>-->
+
+                <!--<a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">-->
+                <!--<i class="icon-link"></i>-->
+                <!--</a>-->
+
+                <!--<div class="item-folio__caption">-->
+                <!--<p>O2O志工媒合推薦系統</p>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div> &lt;!&ndash; end masonry__brick &ndash;&gt;-->
+            </div> <!-- end masonry -->
+        </div> <!-- end col-full -->
+    </div> <!-- end works-content -->
+</section> <!-- end s-works -->
+
+<!-- contact
+================================================== -->
+<section id="contact" class="s-contact">
+    <div class="overlay"></div>
+    <div class="contact__line"></div>
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Contact Us</h3>
+            <h1 class="display-2 display-2--light">聯繫我們<br/>聊聊你如何改變世界的想法</h1>
+        </div>
+    </div>
+
+    <div class="row contact-content" data-aos="fade-up">
+        <!--<div class="contact-primary">-->
+            <!--<h3 class="h6">傳送訊息</h3>-->
+            <!--<form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">-->
+                <!--<fieldset>-->
+                    <!--<div class="form-field">-->
+                        <!--<input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""-->
+                               <!--minlength="2" required="" aria-required="true" class="full-width">-->
+                    <!--</div>-->
+                    <!--<div class="form-field">-->
+                        <!--<input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value=""-->
+                               <!--required="" aria-required="true" class="full-width">-->
+                    <!--</div>-->
+                    <!--<div class="form-field">-->
+                        <!--<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""-->
+                               <!--class="full-width">-->
+                    <!--</div>-->
+                    <!--<div class="form-field">-->
+                        <!--<textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"-->
+                                  <!--cols="50" required="" aria-required="true" class="full-width"></textarea>-->
+                    <!--</div>-->
+                    <!--<div class="form-field">-->
+                        <!--<button class="full-width btn&#45;&#45;primary">送出</button>-->
+                        <!--<div class="submit-loader">-->
+                            <!--<div class="text-loader">傳送中...</div>-->
+                            <!--<div class="s-loader">-->
+                                <!--<div class="bounce1"></div>-->
+                                <!--<div class="bounce2"></div>-->
+                                <!--<div class="bounce3"></div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</fieldset>-->
+            <!--</form>-->
+
+            <!--&lt;!&ndash; contact-warning &ndash;&gt;-->
+            <!--<div class="message-warning">-->
+                <!--Something went wrong. Please try again.-->
+            <!--</div>-->
+
+            <!--&lt;!&ndash; contact-success &ndash;&gt;-->
+            <!--<div class="message-success">-->
+                <!--Your message was sent, thank you!<br>-->
+            <!--</div>-->
+        <!--</div> &lt;!&ndash; end contact-primary &ndash;&gt;-->
+
+        <div class="contact-secondary">
+            <div class="contact-info">
+                <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+                <div class="cinfo">
+                    <h5>Where to Find Us</h5>
+                    <p>
+                        台北市大安區<br>
+                        敦化南路一段205號8樓之2 <br>
+                        或 <br>
+                        台大水源校區卓延大樓710室
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Email Us At</h5>
+                    <p>
+                        <a href="mailto:hi@savy.tw" target="_top">hi@savy.tw</a>
+                    </p>
+                </div>
+            </div> <!-- end contact-info -->
+        </div> <!-- end contact-secondary -->
+    </div> <!-- end contact-content -->
+</section> <!-- end s-contact -->
+
+<!-- footer
+================================================== -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <span class="copyright">Copyright &copy; SAVY 2017</span>
+    <div class="row footer-bottom">
+        <div class="col-twelve">
+            <div class="copyright">
+                <span>© Copyright SAVY 2018</span>
             </div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-                </ul>
+
+            <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
             </div>
-            <div class="col-md-4">
-                <span class="copyright">Made with love in Taipei, Taiwan</span>
+        </div>
+    </div> <!-- end footer-bottom -->
+</footer> <!-- end footer -->
+
+<!-- photoswipe background
+================================================== -->
+<div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title=
+                        "Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title=
+                        "Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+            <button class="pswp__button pswp__button--arrow--right" title=
+                    "Next (arrow right)"></button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
             </div>
         </div>
     </div>
-</footer>
+</div> <!-- end photoSwipe background -->
 
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+<!-- preloader
+================================================== -->
+<div id="preloader">
+    <div id="loader">
+        <div class="line-scale-pulse-out">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpAnimatedHeader.js"></script>
-
-<!-- Custom Theme JavaScript -->
-<script src="js/agency.js"></script>
+<!-- Java Script
+================================================== -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/cool.js"></script>
 
 </body>
+
 </html>
